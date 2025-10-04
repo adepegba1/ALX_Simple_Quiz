@@ -5,7 +5,7 @@ function checkAnswer() {
     "input[type='radio'][name='quiz']:checked"
   );
   const userAnswer = answer.value;
-  if (userAnswer == correctAnswer) {
+  if (userAnswer === correctAnswer) {
     feedback.textContent = "Correct! Well done.";
   } else {
     feedback.textContent = "That's incorrect. Try again!";
