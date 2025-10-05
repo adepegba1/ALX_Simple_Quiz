@@ -17,7 +17,7 @@
 
 - Define a function named checkAnswer. This function will be called when the user submits their answer.
 
-```
+```javascript
 function checkAnswer() {
     // Function body
 }
@@ -55,7 +55,7 @@ For this task, let’s structure a simple calculator application. This applicati
 
 - **Implement Arithmetic Functions:** Each arithmetic operation (add, subtract, multiply, divide) should have its own function. For example:
 
-```
+```javascript
 function add(number1, number2) {
     return number1 + number2;
 }
@@ -67,7 +67,7 @@ Implement similar functions for subtraction, multiplication, and division.
 
 Example for the addition button:
 
-```
+```javascript
 document.getElementById('add').addEventListener('click', function() {
     const number1 = parseFloat(document.getElementById('number1').value) || 0;
     const number2 = parseFloat(document.getElementById('number2').value) || 0;
